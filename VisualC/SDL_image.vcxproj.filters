@@ -87,29 +87,6 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="external\optional\x64\libtiff-6.dll">
-      <Filter>x64</Filter>
-    </None>
-    <None Include="external\optional\x64\libwebp-7.dll">
-      <Filter>x64</Filter>
-    </None>
-    <None Include="external\optional\x64\libwebpdemux-2.dll">
-      <Filter>x64</Filter>
-    </None>
-    <None Include="external\optional\x64\LICENSE.avif.txt">
-      <Filter>x64</Filter>
-    </None>
-    <None Include="external\optional\x64\LICENSE.dav1d.txt">
-      <Filter>x64</Filter>
-    </None>
-    <None Include="external\optional\x64\LICENSE.tiff.txt">
-      <Filter>x64</Filter>
-    </None>
-    <None Include="external\optional\x64\LICENSE.webp.txt">
-      <Filter>x64</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <CustomBuild Include="external\optional\x64\libavif-16.dll">
       <Filter>x64</Filter>
     </CustomBuild>
@@ -137,5 +114,12 @@
     <CustomBuild Include="external\optional\x86\LICENSE.webp.txt">
       <Filter>x86</Filter>
     </CustomBuild>
+    <CustomBuild Include="external\optional\x64\libtiff-6.dll" />
+    <CustomBuild Include="external\optional\x64\libwebp-7.dll" />
+    <CustomBuild Include="external\optional\x64\libwebpdemux-2.dll" />
+    <CustomBuild Include="external\optional\x64\LICENSE.avif.txt" />
+    <CustomBuild Include="external\optional\x64\LICENSE.dav1d.txt" />
+    <CustomBuild Include="external\optional\x64\LICENSE.tiff.txt" />
+    <CustomBuild Include="external\optional\x64\LICENSE.webp.txt" />
   </ItemGroup>
 </Project>
